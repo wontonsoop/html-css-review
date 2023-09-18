@@ -3,8 +3,8 @@
 }
 
     body {
-        font-family: "Nunito" sans-serif;
-        /* color:#fff; */
+        font-family: "Nunito", sans-serif;
+        color:#fff;
         line-height: 1.5;
         margin: 0;
     }
@@ -24,12 +24,8 @@
 
     }
 
-#intro
-#fan-fav,
-#team {
-    padding: 4em; 0;
 
-}
+
     #header {
         background-color: black;
     
@@ -41,12 +37,9 @@
         align-items: center;
        
     }
-   
-     #company-name {
-        color: #DEC9E9;
-        font-size: 1.5rem;
+ 
 
-     }
+    
 
      #intro,
      #top-5,
@@ -85,8 +78,12 @@
 
     }
 
-    #intro p {
+    #intro {
         background-color: #7251B5:
+    }
+    #intro p {
+        
+        max-width: 50%;
     }
 
     #fan-fav {
@@ -95,9 +92,8 @@
     }
 
     #fan-fav ol {
-        list-style-type: none;
-        padding-left: 0;
-
+        list-style: none;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
     }
@@ -106,4 +102,47 @@
         width: 50%;
         padding-right: 15%;
 
+    }
+
+    #team {
+        background-color: #7251B5;
+
+    }
+
+    #team h2,
+    #team .team-intro {
+        max-width: 40%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .team-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    .team-grid article {
+        background-color: #6647a6;
+        border-radius: 20px;
+        padding: 2em 0;
+        text-align: center;
+        
+    }
+    .team-grid article img{
+        width: 80px;
+        border-radius: 50%;
+        filter: grayscale(100%)
+    }
+
+    .team-grid h3{
+        text-transform: uppercase;
+        
+    }
+    .team-grid p{
+        margin-bottom: 0;
+    }
+
+    footer {
+        background-color: black;
+        text-align: center;
     }
