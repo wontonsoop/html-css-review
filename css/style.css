@@ -6,6 +6,7 @@
         font-family: "Nunito" sans-serif;
         /* color:#fff; */
         line-height: 1.5;
+        margin: 0;
     }
 
     .wrapper {
@@ -31,14 +32,32 @@
 }
     #header {
         background-color: black;
+    
     }
 
-    #header {
-
+    #header >div {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+       
     }
+   
+     #company-name {
+        color: #DEC9E9;
+        font-size: 1.5rem;
+
+     }
+
+     #intro,
+     #top-5,
+     #team {
+        padding: 4em 0;
+     }
+
     nav ul {
         list-style-type: none;
         padding-left: 0;
+        display: flex;
     }
 
 
@@ -61,5 +80,30 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #intro p {
+        background-color: #7251B5:
+    }
+
+    #fan-fav {
+        background-color: black;
+        color: #DEC9E9;
+    }
+
+    #fan-fav ol {
+        list-style-type: none;
+        padding-left: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #fan-fav li {
+        width: 50%;
+        padding-right: 15%;
 
     }
