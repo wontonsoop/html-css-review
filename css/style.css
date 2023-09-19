@@ -1,4 +1,4 @@
-{
+*{
     box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@
     
 
      #intro,
-     #fan-fave,
+     #fan-fav,
      #team {
         padding: 4em 0;
      }
