@@ -42,7 +42,7 @@
     
 
      #intro,
-     #top-5,
+     #fan-fave,
      #team {
         padding: 4em 0;
      }
@@ -79,7 +79,7 @@
     }
 
     #intro {
-        background-color: #7251B5:
+        background-color: #7251B5;
     }
     #intro p {
         
@@ -89,6 +89,7 @@
     #fan-fav {
         background-color: black;
         color: #DEC9E9;
+        margin-bottom: 0;
     }
 
     #fan-fav ol {
